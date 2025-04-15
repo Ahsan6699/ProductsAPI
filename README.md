@@ -1,34 +1,25 @@
-# 🛒 Product Management System - ASP.NET Web API
+# 🛍️ Product Management System
 
-A complete **ASP.NET Web API-based backend system** to manage products and product categories in an inventory or e-commerce platform. The system allows CRUD operations on products and categories, handles product classification, and supports image uploads for product profiles.
-
----
+This is a simple **Product Management System** built with **ASP.NET Core Web API**. It provides CRUD operations for managing products and product categories.
 
 ## 🚀 Features
 
-- CRUD operations for **Products**
-- CRUD operations for **Product Categories**
-- Image upload support for product profiles
-- Entity Framework Core integration for database access
-- RESTful API design, ready for frontend consumption
-- DTO (Data Transfer Object) usage for clean architecture
-- Static file serving for uploaded images
+- Manage **Product Categories**
+- Manage **Products** linked to categories
+- RESTful API endpoints
+- Built using **.NET 6 / 7**, **Entity Framework Core**, and **SQL Server**
+- Swagger UI for testing endpoints
 
 ---
 
-## 📦 Technologies Used
+## 🧱 Tech Stack
 
 - ASP.NET Core Web API
 - Entity Framework Core
-- SQL Server (or any EF Core-compatible database)
-- Swagger (OpenAPI) for API testing
-- .NET 6 / .NET 7 (choose based on your setup)
+- SQL Server
+- Swagger (Swashbuckle)
 
 ---
 
-## 🛠️ Setup Instructions
+## 📦 Project Structure
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/ProductManagementAPI.git
-cd ProductManagementAPI
