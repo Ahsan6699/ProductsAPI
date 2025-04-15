@@ -23,3 +23,5 @@ This is a simple **Product Management System** built with **ASP.NET Core Web API
 
 ## 📦 Project Structure
 
+ProductManagementSystem/ │ ├── Controllers/ │ ├── ProductsController.cs │ └── ProductCategoriesController.cs │ ├── Models/ │ ├── Product.cs │ └── ProductCategory.cs │ ├── Data/ │ └── AppDbContext.cs │ ├── Program.cs └── appsettings.json
+
